@@ -1,0 +1,32 @@
+[project]
+name = "intro-to-socialism"
+version = "0.1.0"
+description = "Add your description here"
+authors = [
+    { name = "Kendall Gregory", email = "kenrgregory112358@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "docutils>=0.23",
+    "texsoup>=0.3.3",
+]
+
+[project.scripts]
+intro-to-socialism = "intro_to_socialism:main"
+latexwc = "intro_to_socialism.latexwc:main"
+htmlwc = "intro_to_socialism.htmlwc:main"
+hashrst = "intro_to_socialism.hashrst:main"
+hashlatex = "intro_to_socialism.hashlatex:main"
+hashhtml = "intro_to_socialism.hashhtml:main"
+rst2latex = "intro_to_socialism.rst2latex:main"
+rst2xhtml = "intro_to_socialism.rst2xhtml:main"
+
+[build-system]
+requires = ["uv_build>=0.12.0,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "beautifulsoup4>=4.15.0",
+    "pytest>=9.1.1",
+]

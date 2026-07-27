@@ -1,0 +1,9 @@
+*.toc
+*.aux
+*.pdf
+*.log
+*.pyc
+*.epub
+comparison_report.html
+__pycache__/
+latex_out/

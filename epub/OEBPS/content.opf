@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="bookid" version="2.0">
+  <metadata>
+    <dc:title xmlns:dc="http://purl.org/dc/elements/1.1/">Introduction to Revolutionary Socialism, A Syllabus</dc:title>
+    <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Seattle Revolutionary Socialists</dc:creator>
+    <dc:language xmlns:dc="http://purl.org/dc/elements/1.1/">en</dc:language>
+    <dc:identifier xmlns:dc="http://purl.org/dc/elements/1.1/" id="bookid">urn:uuid:00000000-0000-0000-0000-000000000001</dc:identifier>
+  </metadata>
+  <manifest>
+    <item id="title" href="title.xhtml" media-type="application/xhtml+xml"/>
+    <item id="toc" href="toc.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item1" href="articles/1_revolutionary_socialism_an_introduction.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item2" href="articles/2_why_the_working_class.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item3" href="articles/3_where_does_profit_come_from_what_is_exploitation.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item4" href="articles/4_socialism_needs_democracy.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item5" href="articles/5_socialists_and_the_rank_and_file_strategy.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item6" href="articles/6_marxism_and_oppression.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item7" href="articles/30_marxism_oppression_identity_politics.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item8" href="articles/7_lessons_of_black_freedom_struggle.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item9" href="articles/8_native_liberation.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item10" href="articles/9_revolutionaries_and_electoral_politics.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item11" href="articles/10_why_socialists_dont_vote.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item12" href="articles/11_chile_73.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item13" href="articles/12_what_kind_of_abolitionism.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item14" href="articles/13_palestinian_liberation_by_any_means_necessary.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item15" href="articles/14_what_will_it_take_to_liberate_palestine.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item16" href="articles/15_notes_on_marxism_and_nationalism.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item17" href="articles/16_path_to_socialism_border_abolition.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item18" href="articles/17_lenin_bukharin_imperialism.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item19" href="articles/18_marxism_and_nationalism_part1.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item20" href="articles/19_marxism_and_nationalism_part2.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item21" href="articles/20_what_is_a_vanguard_party.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item22" href="articles/21_in_defense_of_revolutionary_organization.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item23" href="articles/22_party_and_class.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item24" href="articles/23_points_of_unity.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item25" href="articles/24_srs_and_the_left.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item26" href="articles/25_maoism_marxism.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item27" href="articles/26_ultra_leftism.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item28" href="articles/27_two_souls_of_socialism.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item29" href="articles/28_should_socialist_groups_unite.xhtml" media-type="application/xhtml+xml"/>
+    <item id="item30" href="articles/29_disorders_of_the_left_kind.xhtml" media-type="application/xhtml+xml"/>
+    <item id="css" href="styles.css" media-type="text/css"/>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="title"/>
+    <itemref idref="toc"/>
+    <itemref idref="item1"/>
+    <itemref idref="item2"/>
+    <itemref idref="item3"/>
+    <itemref idref="item4"/>
+    <itemref idref="item5"/>
+    <itemref idref="item6"/>
+    <itemref idref="item7"/>
+    <itemref idref="item8"/>
+    <itemref idref="item9"/>
+    <itemref idref="item10"/>
+    <itemref idref="item11"/>
+    <itemref idref="item12"/>
+    <itemref idref="item13"/>
+    <itemref idref="item14"/>
+    <itemref idref="item15"/>
+    <itemref idref="item16"/>
+    <itemref idref="item17"/>
+    <itemref idref="item18"/>
+    <itemref idref="item19"/>
+    <itemref idref="item20"/>
+    <itemref idref="item21"/>
+    <itemref idref="item22"/>
+    <itemref idref="item23"/>
+    <itemref idref="item24"/>
+    <itemref idref="item25"/>
+    <itemref idref="item26"/>
+    <itemref idref="item27"/>
+    <itemref idref="item28"/>
+    <itemref idref="item29"/>
+    <itemref idref="item30"/>
+  </spine>
+</package>
