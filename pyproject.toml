@@ -18,7 +18,7 @@ htmlwc = "intro_to_socialism.htmlwc:main"
 hashrst = "intro_to_socialism.hashrst:main"
 hashlatex = "intro_to_socialism.hashlatex:main"
 hashhtml = "intro_to_socialism.hashhtml:main"
-rst2latex = "intro_to_socialism.rst2latex:main"
+rst2latex2 = "intro_to_socialism.rst2latex:main"
 rst2xhtml = "intro_to_socialism.rst2xhtml:main"
 
 [build-system]
