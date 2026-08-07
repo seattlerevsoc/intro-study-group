@@ -23,7 +23,7 @@ view: $(TEX_DIR)/$(MAIN).pdf
 	xdg-open $(TEX_DIR)/$(MAIN).pdf
 
 tex: $(wildcard rst/*.rst) $(wildcard rst/articles/*.rst) latex/$(MAIN).tex
-	. $(HOME)/.local/bin/env && uv run rst2latex --fragment --main-template latex/$(MAIN).tex
+	. $(HOME)/.local/bin/env && uv run rst2latex2 --fragment --main-template latex/$(MAIN).tex
 
 test:
 	. $(HOME)/.local/bin/env && uv run pytest -v
